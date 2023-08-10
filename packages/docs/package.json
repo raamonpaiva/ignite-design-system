@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,24 +10,29 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
-    "@ignite-ui/eslint-config": "*"
+    "@ignite-ui/ts-config": "*",
+    "polished": "^4.2.2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.1.1",
     "@storybook/addon-interactions": "^7.1.1",
     "@storybook/addon-links": "^7.1.1",
     "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addons": "^7.1.1",
     "@storybook/blocks": "^7.1.1",
     "@storybook/react": "^7.1.1",
     "@storybook/react-vite": "^7.1.1",
     "@storybook/testing-library": "^0.2.0",
+    "@vitejs/plugin-react": "^4.0.3",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.1.1"
+    "storybook": "^7.1.1",
+    "vite": "^4.4.7"
   }
 }
