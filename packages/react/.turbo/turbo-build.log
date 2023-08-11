@@ -1,0 +1,18 @@
+
+> @ignite-ui/react@1.0.0 build
+> tsup src/index.tsx --format esm,cjs --dts --external react
+
+CLI Building entry: src/index.tsx
+CLI Using tsconfig: tsconfig.json
+CLI tsup v7.1.0
+CLI Target: es6
+ESM Build start
+CJS Build start
+ESM dist/index.mjs 2.78 KB
+ESM ⚡️ Build success in 47ms
+CJS dist/index.js 3.70 KB
+CJS ⚡️ Build success in 55ms
+DTS Build start
+DTS ⚡️ Build success in 3840ms
+DTS dist/index.d.mts 6.09 KB
+DTS dist/index.d.ts  6.09 KB
